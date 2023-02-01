@@ -4,9 +4,11 @@ public class NegatePhrase {
         String textletters = args[0].substring(0,3);
         
         if(textletters.equals("not")){
-            System.out.println(text);
+            String text1 = text;
+            System.out.println(text1);
         }else{
-            System.out.println("Not "+text);
+            String text1 = "Not "+text;
+            System.out.println(text1);
         }
 
 

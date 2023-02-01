@@ -8,7 +8,8 @@ public class Abbreviate {
             String startprint = text.substring(0,2);
             int num = length-2;
             String endprint = text.substring(num,length);
-            System.out.println(startprint+"..."+endprint);
+            String fulltext = startprint+"..."+endprint;
+            System.out.println(fulltext);
         }
     }
 }
